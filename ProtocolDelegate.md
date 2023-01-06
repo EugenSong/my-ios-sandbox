@@ -12,7 +12,7 @@ However, we don't want the MazeViewController to be responsible for storing the 
 
 To do this, we can use the protocol-delegate pattern. First, we'll create a protocol called MazeDataProvider that defines the methods that the delegate object will need to implement. This might look something like this:
 
-```
+```swift
 protocol MazeDataProvider {
   func numberOfRowsInMaze() -> Int
   func numberOfColumnsInMaze() -> Int
@@ -22,7 +22,7 @@ protocol MazeDataProvider {
 
 Next, we'll create a class called MazeData that will be responsible for storing the information about the maze and acting as the delegate for the MazeViewController. The MazeData class will need to implement the MazeDataProvider protocol and provide an implementation for the required methods. It might look something like this:
 
-```
+```swift
 class MazeData: MazeDataProvider {
   private var maze: [[Character]] = [
     ["#", "#", "#", "#", "#"],
@@ -51,10 +51,10 @@ class MazeData: MazeDataProvider {
 
 Finally, we'll update the MazeViewController to use an instance of MazeData as its delegate. We'll also update the MazeViewController to use the delegate to get the information it needs to display the maze on the screen. The MazeViewController might look something like this:
 
-```
+```swift
 class MazeViewController: UIViewController {
   var dataProvider: MazeDataProvider?
 
   override func viewDid
-  
+```
 
