@@ -1,7 +1,5 @@
 Protocol-Delegate Pattern
 =========================
-The protocol-delegate pattern is a design pattern that is commonly used in software development to allow an object to communicate with other objects. It is often used in iOS and macOS development, but can be applied in other contexts as well.
-
 In the protocol-delegate pattern, one object (the delegate) acts on behalf of, or in coordination with, another object (the delegating object). The delegating object holds a reference to the delegate and sends messages to it when it needs to perform a task or request information. The delegate then performs the task or provides the information as needed.
 
 Example in Swift
