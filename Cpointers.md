@@ -39,6 +39,10 @@ Notes on Dereference (&) / Pointer (*)
 
 & - give me the address
 
-* - go to the address (open the address box and look what's inside)
+* - 1) go to the address (open the address box and look what's inside
+		aka dereference)
+		[ int package = *mailbox ] 
+  - 2) create a pointer var that holds an address 
+  		[char *ptr ... create a char pointer named ptr]
 
 ```
