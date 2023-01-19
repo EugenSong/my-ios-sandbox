@@ -3,10 +3,16 @@ Structs in C
 
 ```c
 typedef struct { 		// required keywords
-
 string name;			// properties
-string number
+string number;
 } Person; 				// datatype Name
+
+or 
+
+struct Person {
+string name;
+string number;
+};
 
 
 ```
