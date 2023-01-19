@@ -31,3 +31,14 @@ mypointer2 = &mychar2; 		// reassign 'mypointer2s' value, an address
 								the value that lies at 'mypointer' 
 
 ```
+
+Notes on Dereference (&) / Pointer (*)
+-
+
+```c
+
+& - give me the address
+
+* - go to the address (open the address box and look what's inside)
+
+```
