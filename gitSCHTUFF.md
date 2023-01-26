@@ -9,8 +9,9 @@ Git: How-to
 ...make changes in new branch & push to github
 -
 
-`git add .`
-`git commit -m ""`
+`git add .` - add files to staging area
+
+`git commit -m "insert message"` - insert a message and create commit
 
 `git push origin new-branch` - push the new branch's changes to github 
 
